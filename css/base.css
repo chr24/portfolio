@@ -1,6 +1,6 @@
 body{
 	font-family: 'Comic Sans MS';
-	background-image: url("imgs_background/background_imgs.png");
+	background-image: url("imgs_background\background_imgs.png");
 	text-align: center;
 }
 #wrap{
@@ -8,7 +8,6 @@ body{
 	margin-top: 2em;
 	padding: 10px;
 	width:  80%;
-
 	background-color: #fff;
 	border-radius: 40px;
 }
