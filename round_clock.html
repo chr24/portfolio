@@ -1,0 +1,26 @@
+<!DODTYPE>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+
+
+		<title>clock</title>
+		<link rel="stylesheet" href="css/clock_base.css" />
+		<link rel="stylesheet" href="css/default.css" id="cssA" />
+
+	</head>
+	<body onload="setInterval('draw()',1000)" >
+
+		<canvas id="clock" width="200px" height="200px" ></canvas><br />
+
+		<button type="button" onclick="pinkCss()" id="pink"			>　</button>
+		<button type="button" onclick="defaultCss()" id="default"	>　</button>
+		<button type="button" onclick="brownCss()" id="brown"		>　</button>
+
+		<script type="text/javascript" src="JavaScript/round_clock.js">
+		<noscript>このページはJavaScriptを使用しています。<br />
+		表示する為にはJavaScriptをonにして下さい。</noscript>
+		</script>
+
+	</body>
+</html>
