@@ -1,0 +1,12 @@
+/* brown */
+body{
+	color: #fff;
+	background-color: #c89258;
+	font-family: 'Palatino Linotype';
+}
+#clock{
+	background-color: 	#651900;
+	border: ridge 50px #982600;
+	margin: 30px;
+}
+

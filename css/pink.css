@@ -1,0 +1,14 @@
+/*  PINK  */
+
+body{
+	color: #fff;
+	background-color: #ffcac3;
+}
+#clock{
+	background-color: #ff0075;
+	border: dashed 12px #ffadc8;
+	border-radius: 150px;
+	box-shadow: 0px 0px 0px 22px #ff0075;
+	margin: 65px;
+}
+

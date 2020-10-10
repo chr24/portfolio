@@ -1,0 +1,13 @@
+/* default */
+
+body{
+	color: #000;
+	background-color: #fff;
+  	font-family: 'Trebuchet';
+}
+#clock{
+	border: solid 20px #000;
+	border-radius: 150px;
+	margin: 60px;
+}
+
