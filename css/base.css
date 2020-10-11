@@ -52,6 +52,7 @@ li img{
 		margin-top: 2em;
 		padding: 10px;
 		width:  80%;
+		height: 60%;
 		background-color: #fff;
 		border-radius: 40px;
 		list-style: none;
@@ -59,17 +60,18 @@ li img{
 	li{
 		display: inline-block;
 	}
+	.icon{
+		width:  200px;
+		height: 200px;
+		margin: 15px;
+	}
 }
 @media screen and (max-width: 480px) {
 	/* 480px以下に適用されるCSS（スマホ用） */
-	body{
-		font-family: 'Comic Sans MS';
-	}
 	h1{
 		font-size: 40px;
 	}
 	li{
-		list-style: none;
 		display: inline-block;
 	}
 	.icon{
