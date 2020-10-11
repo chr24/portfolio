@@ -69,16 +69,15 @@ li img{
 		font-size: 30px;
 	}
 	ul{
-		display: flex;
-		flex-wrap: wrap;
+
 		list-style: none;
 	}
 	li{
 		display: inline-block;
 	}
 	li img{
-		width:  75px;
-		height: 75px;
+		width:  70px;
+		height: 70px;
 		margin: 5px;
 	}
 }
