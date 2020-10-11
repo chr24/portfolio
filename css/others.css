@@ -1,7 +1,7 @@
 body{
 	width: 90%;
 	text-align: center;
-	font-family: 'Comic Sans MS',"ヒラギノ角ゴ Pro W3";
+	font-family: Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "メイリオ", Meiryo,'Comic Sans MS',"ヒラギノ角ゴ Pro W3";
 }
 .icons{
 	position:relative
