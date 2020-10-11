@@ -56,6 +56,9 @@ li img{
 		border-radius: 40px;
 		list-style: none;
 	}
+	li{
+		display: inline-block;
+	}
 }
 @media screen and (max-width: 480px) {
 	/* 480px以下に適用されるCSS（スマホ用） */
@@ -64,7 +67,9 @@ li img{
 		flex-wrap: wrap;
 		list-style: none;
 	}
-
+	li{
+		display: inline-block;
+	}
 	li img{
 		width:  150px;
 		height: 150px;
