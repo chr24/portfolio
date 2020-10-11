@@ -72,7 +72,7 @@ li img{
 		list-style: none;
 		display: inline-block;
 	}
-	li img{
+	.icon{
 		width:  100px;
 		height: 100px;
 		margin: 10px;
