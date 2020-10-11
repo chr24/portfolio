@@ -66,19 +66,16 @@ li img{
 		font-family: 'Comic Sans MS';
 	}
 	h1{
-		font-size: 30px;
-	}
-	ul{
-
-		list-style: none;
+		font-size: 40px;
 	}
 	li{
+		list-style: none;
 		display: inline-block;
 	}
 	li img{
-		width:  70px;
-		height: 70px;
-		margin: 5px;
+		width:  100px;
+		height: 100px;
+		margin: 10px;
 	}
 }
 
