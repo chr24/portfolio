@@ -8,7 +8,6 @@ body{
 	margin-top: 2em;
 	padding: 10px;
 	width:  80%;
-
 	background-color: #fff;
 	border-radius: 40px;
 }
@@ -66,7 +65,8 @@ li img{
 		list-style: none;
 	}
 	li{
-		width: 50%;
+		width:  50%;
+		height: 50%;
 		box-sizing: border-box;
 		padding: 10px;
 	}
