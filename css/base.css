@@ -31,7 +31,7 @@ footer{
 }
 ul{
 	width: 100%;
-	list-style-type: none;
+	list-style: none;
 	margin: 0;
 	padding: 0;
 	margin-bottom: 25px;
@@ -55,7 +55,7 @@ li img{
 		width:  80%;
 		background-color: #fff;
 		border-radius: 40px;
-		list-style-type: none;
+		list-style: none;
 	}
 }
 @media screen and (max-width: 480px) {
@@ -63,7 +63,7 @@ li img{
 	ul{
 		display: flex;
 		flex-wrap: wrap;
-		list-style-type: none;
+		list-style: none;
 	}
 	li{
 		width: 50%;
