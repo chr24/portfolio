@@ -75,8 +75,8 @@ li{
 		display: inline-block;
 	}
 	.icon{
-		width:  120px;
-		height: 120px;
+		width:  40%;
+		/*height: 40%;*/
 		margin: 8px;
 	}
 }
