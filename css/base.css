@@ -55,6 +55,7 @@ li img{
 		width:  80%;
 		background-color: #fff;
 		border-radius: 40px;
+		list-style-type: none;
 	}
 }
 @media screen and (max-width: 480px) {
@@ -62,6 +63,7 @@ li img{
 	ul{
 		display: flex;
 		flex-wrap: wrap;
+		list-style-type: none;
 	}
 	li{
 		width: 50%;
