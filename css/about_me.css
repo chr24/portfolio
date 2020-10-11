@@ -29,3 +29,19 @@ h1{
 	width:  150px;
 	height: 80px;
 }
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+	body{
+		font-family: 'Comic Sans MS';
+	}
+	h1{
+		font-size: 35px;
+	}
+	.index{
+		width:  140px;
+		height: 25px;
+		border-radius: 6px;
+		padding: 4px 9px 4px 9px;
+		margin: 4 auto;
+}
+}
