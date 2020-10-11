@@ -1,6 +1,7 @@
 body{
 	text-align: center;
 	font-family: Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "メイリオ", Meiryo,'Comic Sans MS',"ヒラギノ角ゴ Pro W3";
+	margin: 0 auto;
 }
 .icon{
 	width:  150px;
@@ -12,4 +13,14 @@ body{
 	height: 80px;
 	margin: 15 auto;
 }
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+	.icon{
+		width:  200px;
+		height: 200px;
+		margin: 30px;
+	}
 
+
+
+}

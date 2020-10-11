@@ -73,14 +73,14 @@ li{
 	/* 480px以下に適用されるCSS（スマホ用） */
 	h1{
 		font-size: 40px;
-		margin: 12 auto;
+		margin: 9 auto;
 	}
 	li{
 		display: inline-block;
 	}
 	.icon{
-		width:  40%;
-		height: 40%;
+		width:  110px;
+		height: 110px;
 		margin: 8px;
 	}
 }
