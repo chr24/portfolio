@@ -56,6 +56,10 @@ li{
 		border-radius: 40px;
 		list-style: none;
 	}
+	h1{
+		font-size: 60px;
+		margin: 12 auto;
+	}
 	li{
 		display: inline-block;
 	}
@@ -69,7 +73,7 @@ li{
 	/* 480px以下に適用されるCSS（スマホ用） */
 	h1{
 		font-size: 40px;
-		margin: 22 auto;
+		margin: 12 auto;
 	}
 	li{
 		display: inline-block;
