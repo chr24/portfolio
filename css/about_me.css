@@ -1,5 +1,5 @@
 body{
-	font-family: "ƒqƒ‰ƒMƒmŠpƒS Pro W3";
+	font-family: Verdana, Roboto, "Droid Sans", "ŸàƒSƒVƒbƒN", YuGothic,"ƒqƒ‰ƒMƒmŠpƒS Pro W3";
 	text-align: center;
 /*	background-color: #e7b97c;*/
 	color: #580600;
@@ -31,9 +31,6 @@ h1{
 }
 @media screen and (max-width: 480px) {
 	/* 480pxˆÈ‰º‚É“K—p‚³‚ê‚éCSSiƒXƒ}ƒz—pj */
-	body{
-		font-family: 'Comic Sans MS';
-	}
 	h1{
 		font-size: 30px;
 	}
@@ -42,6 +39,10 @@ h1{
 		height: 25px;
 		border-radius: 6px;
 		padding: 4px 9px 4px 9px;
-		margin: 4 auto;
-}
+		margin: 3 auto;
+	}
+	.icon{
+		width:  120px;
+		height: 120px;
+	}
 }

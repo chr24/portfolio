@@ -5,11 +5,11 @@ body{
 .icon{
 	width:  150px;
 	height: 150px;
-	margin: 10px;
+	margin: 10 auto;
 }
 .home{
 	width:  150px;
 	height: 80px;
-	margin: 15px;
+	margin: 15 auto;
 }
 
