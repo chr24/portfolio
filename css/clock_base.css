@@ -1,7 +1,6 @@
 /* base */
 
 body{
-
 	text-align: center;
 	font-weight: bold; 
 	font-size: 20px;
@@ -42,4 +41,7 @@ button: active{
 	border-bottom: none;
 
 }
-
+.home{
+	width:  150px;
+	height: 80px;
+}
