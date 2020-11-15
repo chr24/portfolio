@@ -1,0 +1,20 @@
+.icon_box{
+  position: relative;
+  color: #333;
+  font-family: "icomoon";
+
+  border: solid 2px #f80;
+  border-radius: 8px;
+  padding: 5px;
+  width:  400px;
+  height: 30px;
+  margin-left:  auto;
+  margin-right: auto;
+  /* margin: 10px; */
+
+  /* text-align: center; */
+}
+.icon-home:before {
+  display: inline-block;
+  content: "\e900";
+}

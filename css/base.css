@@ -1,8 +1,10 @@
 @charset "UTF-8";
 body{
-	font-family: 'Comic Sans MS',"ŸàƒSƒVƒbƒN", YuGothic,Verdana, Roboto, "Droid Sans",  "ƒƒCƒŠƒI", Meiryo,"ƒqƒ‰ƒMƒmŠpƒS Pro W3";
+	font-family: 'Comic Sans MS',"ï¿½ï¿½ï¿½Sï¿½Vï¿½bï¿½N", YuGothic,Verdana, Roboto, "Droid Sans",  "ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½I", Meiryo,"ï¿½qï¿½ï¿½ï¿½Mï¿½mï¿½pï¿½S Pro W3";
 	background-image: url("https://github.com/chihiro-1124/portfolio/blob/master/css/imgs_background/background_imgs.png?raw=true");
 	text-align: center;
+	color: #555;
+	font-size: 22px;
 }
 #wrap{
 	text-align: center;
@@ -46,9 +48,15 @@ li{
 	height: 150px;
 	margin: 10px;
 }
+.iframe{
+	frameborder: 0;
+}
+
+
+
 
 @media screen and (max-width: 959px) {
-	/* 959pxˆÈ‰º‚É“K—p‚³‚ê‚éCSSiƒ^ƒuƒŒƒbƒg—pj */
+	/* 959pxï¿½È‰ï¿½ï¿½É“Kï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½CSSï¿½iï¿½^ï¿½uï¿½ï¿½ï¿½bï¿½gï¿½pï¿½j */
 	#wrap{
 		margin: 0 auto;
 		margin-top: 2em;
@@ -71,7 +79,7 @@ li{
 	}
 }
 @media screen and (max-width: 480px) {
-	/* 480pxˆÈ‰º‚É“K—p‚³‚ê‚éCSSiƒXƒ}ƒz—pj */
+	/* 480pxï¿½È‰ï¿½ï¿½É“Kï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½CSSï¿½iï¿½Xï¿½}ï¿½zï¿½pï¿½j */
 	h1{
 		font-size: 40px;
 		margin: 9 auto;
@@ -85,4 +93,3 @@ li{
 		margin: 8px;
 	}
 }
-
