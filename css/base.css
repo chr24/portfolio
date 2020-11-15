@@ -51,10 +51,14 @@ li{
 .iframe{
 	frameborder: 0;
 }
+/* リンクの下線を表示しない */
+a{
+	text-decoration:none;
+}
 
 
 
-
+/* *********************************************************** */
 @media screen and (max-width: 959px) {
 	/* 959px�ȉ��ɓK�p������CSS�i�^�u���b�g�p�j */
 	#wrap{
@@ -78,6 +82,9 @@ li{
 		margin: 15px;
 	}
 }
+
+
+/* *********************************************************** */
 @media screen and (max-width: 480px) {
 	/* 480px�ȉ��ɓK�p������CSS�i�X�}�z�p�j */
 	h1{
