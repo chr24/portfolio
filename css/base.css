@@ -1,9 +1,11 @@
+@charset "UTF-8";
 body{
-	font-family: 'Comic Sans MS',Verdana, Roboto, "Droid Sans", "ŸàƒSƒVƒbƒN", YuGothic, "ƒƒCƒŠƒI", Meiryo,"ƒqƒ‰ƒMƒmŠpƒS Pro W3";
+	font-family: 'Comic Sans MS',"ŸàƒSƒVƒbƒN", YuGothic,Verdana, Roboto, "Droid Sans",  "ƒƒCƒŠƒI", Meiryo,"ƒqƒ‰ƒMƒmŠpƒS Pro W3";
 	background-image: url("https://github.com/chihiro-1124/portfolio/blob/master/css/imgs_background/background_imgs.png?raw=true");
 	text-align: center;
 }
 #wrap{
+	text-align: center;
 	margin: 0 auto;
 	margin-top: 2em;
 	padding: 10px;

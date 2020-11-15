@@ -1,8 +1,8 @@
 /* brown */
+@charset "UTF-8";
 body{
 	color: #fff;
 	background-color: #c89258;
-	font-family: 'Palatino Linotype';
 }
 #clock{
 	background-color: 	#651900;
