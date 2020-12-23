@@ -16,21 +16,12 @@ body{
 	border-radius: 40px;
 }
 h1{
+	text-align: center;
 	width: 80%;
 	margin: 15 auto;
 	padding: 10px;
 	font-size: 50px;
 	color: #003200;
-}
-footer{
-	width:  120px;
-	height: 25px;
-	margin: 20px auto;
-	color: white;
-	background-color: #52aa35;
-	border-radius: 8px;
-	margin-bottom: 20px;
-	line-height: 25px;
 }
 ul{
 	width: 100%;
@@ -40,7 +31,6 @@ ul{
 	margin-bottom: 25px;
 }
 li{
-	text-align: center;
 	margin: auto;
 	display: inline-block;
 }
@@ -56,6 +46,18 @@ li{
 a{
 	text-decoration:none;
 }
+footer{
+	width:  240px;
+	height: 25px;
+	margin: 20px auto;
+	color: white;
+	background-color: #52aa35;
+	border-radius: 8px;
+	margin-bottom: 20px;
+	line-height: 25px;
+}
+
+
 
 
 
