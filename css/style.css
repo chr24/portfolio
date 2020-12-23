@@ -1,0 +1,103 @@
+@charset "UTF-8";
+body{
+	font-family: "游ゴシック", YuGothic,Verdana, Roboto, "Droid Sans",  "メイリオ", Meiryo,'Comic Sans MS',"ヒラギノ角ゴ Pro W3";
+	background-image: url("https://github.com/chihiro-1124/portfolio/blob/master/css/imgs_background/background_imgs.png?raw=true");
+	text-align: center;
+	color: #555;
+	font-size: 22px;
+}
+#wrap{
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 2em;
+	padding: 10px;
+	width:  80%;
+	background-color: #fff;
+	border-radius: 40px;
+}
+h1{
+	width: 80%;
+	margin: 15 auto;
+	padding: 10px;
+	font-size: 50px;
+	color: #003200;
+}
+footer{
+	width:  120px;
+	height: 25px;
+	margin: 20px auto;
+	color: white;
+	background-color: #52aa35;
+	border-radius: 8px;
+	margin-bottom: 20px;
+	line-height: 25px;
+}
+ul{
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 25px;
+}
+li{
+	text-align: center;
+	margin: auto;
+	display: inline-block;
+}
+.icon{
+	width:  150px;
+	height: 150px;
+	margin: 10px;
+}
+.iframe{
+	frameborder: 0;
+}
+/* リンクの下線を表示しない */
+a{
+	text-decoration:none;
+}
+
+
+
+/* *********************************************************** */
+@media screen and (max-width: 959px) {
+	/* 959px�ȉ��ɓK�p������CSS�i�^�u���b�g�p�j */
+	#wrap{
+		margin: 0 auto;
+		margin-top: 2em;
+		padding: 10px;
+		background-color: #fff;
+		border-radius: 40px;
+		list-style: none;
+	}
+	h1{
+		font-size: 60px;
+		margin: 12 auto;
+	}
+	li{
+		display: inline-block;
+	}
+	.icon{
+		width:  200px;
+		height: 200px;
+		margin: 15px;
+	}
+}
+
+
+/* *********************************************************** */
+@media screen and (max-width: 480px) {
+	/* 480px�ȉ��ɓK�p������CSS�i�X�}�z�p�j */
+	h1{
+		font-size: 40px;
+		margin: 9 auto;
+	}
+	li{
+		display: inline-block;
+	}
+	.icon{
+		width:  110px;
+		height: 110px;
+		margin: 8px;
+	}
+}
