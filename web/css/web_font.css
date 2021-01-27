@@ -6,6 +6,9 @@
        url('font/irohamaru-mikami-Medium.ttf') format('ttf');
        url('font/irohamaru-mikami-Regular.ttf') format("ttf");
 }
+.cessorie_font{
+  font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Sans-Serif !important;
+}
 .noto_sans{
 	font-family: 'Noto Sans JP', sans-serif;
 }
@@ -15,5 +18,3 @@
 .font_weight_bold{
 	font-weight: bold;
 }
-
-
