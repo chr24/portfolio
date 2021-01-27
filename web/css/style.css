@@ -1,0 +1,70 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+}
+body{
+  margin-left: 15%;
+  margin-right: 15% auto;
+  margin-top: 80px;
+}
+main{
+}
+#wrapper{
+  width: 100%;
+}
+section{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+textarea{
+  resize: none;
+  width:280px;
+  height:90px;
+  margin-bottom: 50px;
+}
+.text{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* ********** header nav **********  */
+header{
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  background-color: #eee;
+  top: 0;
+  left: 0;
+  opacity: .9;
+}
+#nav{
+  position: relative;
+  display: flex;
+
+}
+.sectionSlider a{
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+/* ********** topへ戻るボタン **********  */
+#back-top {
+  width: 70px;
+	background-color: #458d6b;
+	position: fixed;
+	bottom: 40px;
+	right: 30px;
+	border-radius: 5px;
+	z-index: 9999;
+	opacity: 0.7;
+}
+#back-top a {
+  color: #ffffff;
+	text-align: center;
+	display: block;
+	line-height: 50px;
+	height: 50px;
+	text-decoration: none;
+	opacity: 0.7;
+}
